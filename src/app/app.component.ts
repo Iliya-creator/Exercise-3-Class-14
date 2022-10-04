@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ngFor-input-decorator-exercise';
+  users: {username:string, id:number}[]= [{username: 'Iliya', id: 1}, {username: "John", id:2}, {username: 'Iliy', id: 3}, {username: "Johna", id:4}, {username: 'Ili', id: 5}, {username: "Johnny", id:6}];
 }
